@@ -22,7 +22,6 @@ public class IntegerIterator implements Iterator<Integer> {
 
     @Override
     public Integer next() {
-        random = new Random();
         return random.nextInt(max - min + 1) + min;
     }
 
